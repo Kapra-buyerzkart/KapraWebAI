@@ -6,9 +6,11 @@ const Hero = () => {
     return (
         <section id="home" className="hero" style={{ backgroundImage: `url(${heroImage})` }}>
             <div className="hero-content">
-                <h1>Welcome to KAPRA WEB AI MAKERS</h1>
-                <p>Innovative IT solutions tailored for your business needs.</p>
-                {/* <a href="/contact" className="btn">Get Started</a> */}
+                <h1>
+                    <span>Innovate</span>
+                    <span>Accelerate</span>
+                    <span>Dominate</span>
+                </h1>
             </div>
         </section>
     );

@@ -1,42 +1,59 @@
 .hero {
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 5rem 2rem;
+    height: 90vh;
     background-size: cover;
     /* Ensures the image covers the entire section */
     background-position: center;
     /* Centers the image */
-    height: 60vh;
-    /* Adjusts the height of the hero section */
+    padding: 0 2rem;
 }
 
 .hero h1 {
-    font-size: 4rem;
-    margin-bottom: 1rem;
+    font-size: 5rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* Adds spacing between the words */
+    color: #3d52a0;
+    text-transform: uppercase;
+    /* Makes the text uppercase */
 }
 
-.hero p {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.hero .btn {
-    background-color: white;
-    color: #4facfe;
-    padding: 0.8rem 2rem;
-    text-decoration: none;
+.hero span {
+    display: block;
+    font-size: 3rem;
+    /* Increases font size */
     font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.hero .btn:hover {
-    background-color: #00f2fe;
+    /* Makes the text bold */
+    padding: 0.5rem 1rem;
+    /* Adds padding around the text */
+    margin: 0.5rem 0;
+    /* Adds margin between spans */
+    background-color: rgba(61, 82, 160, 0.8);
+    /* Adds a semi-transparent background color */
     color: white;
+    /* Changes text color to white for contrast */
+    border-radius: 5px;
+    /* Rounds the corners of the background */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Adds a shadow for an attractive effect */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    /* Smooth hover effect */
 }
 
 @media (max-width: 768px) {
+
     .hero h1 {
         font-size: 2.5rem;
+    }
+
+    .hero span {
+        font-size: 2rem;
+        /* Adjusts font size for smaller screens */
     }
 }
