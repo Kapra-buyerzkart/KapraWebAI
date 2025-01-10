@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+footer .footer-logo h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    /* Adjusted margin */
+}
+
+footer .subsidiary-text {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 0.5rem;
+    /* Adds spacing between the company name and subsidiary text */
+}
+
+footer .footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+footer .footer-links a:hover {
+    color: #00f2fe;
+}
+
+footer .footer-socials {
+    display: flex;
+    justify-content: center;
+    /* Center the WhatsApp icon */
+    margin-top: 1rem;
+}
+
+footer .footer-socials a {
+    color: white;
+    font-size: 2rem;
+    /* Default font size for the icon */
+    transition: color 0.3s;
+}
+
+footer .footer-socials a:hover {
+    color: #00f2fe;
+    /* Change color on hover */
+}
+
+footer .footer-socials .big-whatsapp-icon {
+    font-size: 3rem;
+    /* Bigger size for the WhatsApp icon */
+}
+
+footer p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+footer .footer-socials.hidden-icon {
+    visibility: hidden;
+    /* Hides the WhatsApp icon but keeps the space */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    footer .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .footer-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    footer .footer-socials {
+        justify-content: center;
+    }
+}

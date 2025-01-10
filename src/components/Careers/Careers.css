@@ -1,0 +1,35 @@
+.career-section {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #f3f4f6;
+}
+
+.career-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.career-tagline {
+    font-size: 1.25rem;
+    color: #777;
+    margin-bottom: 2rem;
+}
+
+.career-cards-container {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 768px) {
+    .career-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .career-card {
+        width: 90%;
+    }
+}

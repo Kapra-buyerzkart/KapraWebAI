@@ -1,0 +1,48 @@
+.career-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.career-card:hover {
+    transform: translateY(-10px);
+}
+
+.career-title {
+    margin-bottom: 1rem;
+    color: #4caf50;
+}
+
+.career-detail {
+    margin-bottom: 0.5rem;
+}
+
+.career-apply-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    /* Removed border */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.career-apply-button:hover {
+    background-color: #388e3c;
+}
+
+
+@media (max-width: 768px) {
+    .career-card {
+        width: 90%;
+    }
+}
