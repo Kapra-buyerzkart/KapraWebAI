@@ -31,3 +31,9 @@ h3 {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+@media (max-width: 768px) {
+  html {
+      scroll-padding-top: 90px; /* Match header height */
+  }
+}
