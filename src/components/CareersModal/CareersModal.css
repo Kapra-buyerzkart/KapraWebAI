@@ -37,6 +37,7 @@
     display: block;
     margin-bottom: 1rem;
     font-weight: bold;
+    color: #333;
 }
 
 .application-form input {
@@ -50,13 +51,10 @@
 
 .submit-button {
     display: block;
-    /* Center align */
     margin: 1rem auto 0;
-    /* Center align and add margin */
     padding: 0.75rem 1.5rem;
-    background-color: #4caf50;
+    background-color: #008080; /* Teal */
     color: white;
-    text-decoration: none;
     font-weight: bold;
     border: none;
     border-radius: 5px;
@@ -65,5 +63,5 @@
 }
 
 .submit-button:hover {
-    background-color: #388e3c;
+    background-color: #006666; /* Darker Teal */
 }

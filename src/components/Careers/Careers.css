@@ -1,35 +1,43 @@
 .career-section {
     text-align: center;
     padding: 3rem 2rem;
-    background: #f3f4f6;
+    background: #e8f8f5; /* Light teal */
+    color: #333;
 }
 
 .career-heading {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    color: #008080; /* Teal */
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .career-tagline {
     font-size: 1.25rem;
-    color: #777;
+    color: #555;
     margin-bottom: 2rem;
 }
 
 .career-cards-container {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-
+/* Responsive Design */
 @media (max-width: 768px) {
     .career-cards-container {
         flex-direction: column;
         align-items: center;
     }
 
-    .career-card {
-        width: 90%;
+    .career-heading {
+        font-size: 2rem;
+    }
+
+    .career-tagline {
+        font-size: 1rem;
     }
 }

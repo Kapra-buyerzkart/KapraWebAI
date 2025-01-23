@@ -6,10 +6,10 @@
     text-align: center;
     height: 90vh;
     background-size: cover;
-    /* Ensures the image covers the entire section */
     background-position: center;
-    /* Centers the image */
     padding: 0 2rem;
+    flex-direction: column;
+    /* Ensure content centers vertically on smaller screens */
 }
 
 .hero h1 {
@@ -18,42 +18,78 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    /* Adds spacing between the words */
     color: #3d52a0;
     text-transform: uppercase;
-    /* Makes the text uppercase */
 }
 
 .hero span {
     display: block;
     font-size: 3rem;
-    /* Increases font size */
     font-weight: bold;
-    /* Makes the text bold */
     padding: 0.5rem 1rem;
-    /* Adds padding around the text */
     margin: 0.5rem 0;
-    /* Adds margin between spans */
     background-color: rgba(61, 82, 160, 0.8);
-    /* Adds a semi-transparent background color */
     color: white;
-    /* Changes text color to white for contrast */
     border-radius: 5px;
-    /* Rounds the corners of the background */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Adds a shadow for an attractive effect */
-    transition: transform 0.3s ease, background-color 0.3s ease;
-    /* Smooth hover effect */
+    /* transition: transform 0.3s ease, background-color 0.3s ease; */
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .hero {
+        height: 80vh;
+        /* Adjust height for medium screens */
+        padding: 0 1rem;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+        /* Slightly reduce font size */
+    }
+
+    .hero span {
+        font-size: 2.5rem;
+        /* Adjust font size for medium screens */
+    }
 }
 
 @media (max-width: 768px) {
+    .hero {
+        height: auto;
+        /* Allow height to adjust dynamically */
+        padding: 2rem 1rem;
+    }
 
     .hero h1 {
         font-size: 2.5rem;
+        /* Reduce font size further */
+        gap: 0.8rem;
+        /* Adjust spacing between spans */
     }
 
     .hero span {
         font-size: 2rem;
-        /* Adjusts font size for smaller screens */
+        /* Smaller font size for small screens */
+        padding: 0.4rem 0.8rem;
+        /* Adjust padding for smaller spans */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 1.5rem 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        /* Smaller font size for very small screens */
+    }
+
+    .hero span {
+        font-size: 1.8rem;
+        /* Adjust font size for extra small screens */
+        padding: 0.3rem 0.6rem;
+        /* Smaller padding for extra small spans */
     }
 }

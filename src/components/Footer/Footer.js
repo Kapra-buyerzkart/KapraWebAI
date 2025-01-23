@@ -16,7 +16,7 @@ const Footer = () => {
                     <h3>KAPRA WEB AI MAKERS PVT LTD</h3>
                     <p className="subsidiary-text">Subsidiary of Kapra Highness Ventures Pvt Ltd</p>
                 </div>
-                <div className="footer-socials">
+                <div className="footer-socials hidden-icon">
                     <a href="https://wa.me/7994396662" target="_blank" rel="noreferrer">
                         <FaWhatsapp size={48} className="big-whatsapp-icon" />
                     </a>

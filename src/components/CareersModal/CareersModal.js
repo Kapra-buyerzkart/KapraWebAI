@@ -8,7 +8,7 @@ const CareersModal = (props) => {
                 <button className="modal-close" onClick={props.handleCloseModal}>
                     &times;
                 </button>
-                <h3>Apply for MERN Stack Developer</h3>
+                <h3>Apply for {props.position}</h3>
                 <form ref={props.form} onSubmit={props.sendEmail} className="application-form">
                     <label>
                         Name:

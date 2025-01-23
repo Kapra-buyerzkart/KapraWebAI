@@ -54,7 +54,7 @@ const Contact = () => {
                 <section id="contact" className="contact">
                     {/* {console.log("showModal", showModal)}
                     {console.log("modalMessage", modalMessage)} */}
-                    <h2>Contact Us</h2>
+                    <h2>CONTACT US</h2>
                     <form ref={form} className="contact-form" onSubmit={sendEmail}>
                         <div className="form-group">
                             <label htmlFor="name">Name</label>

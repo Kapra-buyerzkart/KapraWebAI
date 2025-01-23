@@ -14,6 +14,16 @@ const Home = () => {
             <About />
             <Careers />
             <Contact />
+            
+            {/* WhatsApp Icon */}
+            <a
+                href="https://wa.me/7994396662" // Replace with your WhatsApp number
+                target="_blank"
+                rel="noopener noreferrer"
+                className="whatsapp-icon"
+            >
+                <i className="fab fa-whatsapp"></i>
+            </a>
         </div>
     );
 };

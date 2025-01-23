@@ -1,15 +1,69 @@
 .about {
-    padding: 3rem 2rem;
-    background: #ede8f5;
+    padding: 4rem 2rem;
+    background-color: #f7f9fc;
     text-align: center;
+    color: #333;
 }
 
 .about h2 {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    color: #3d52a0;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .about p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    line-height: 1.8;
     color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+    border-left: 4px solid #3d52a0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+@media (max-width: 1024px) {
+    .about h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .about p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 3rem 1.5rem;
+    }
+
+    .about h2 {
+        font-size: 1.8rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 2rem 1rem;
+    }
+
+    .about h2 {
+        font-size: 1.6rem;
+    }
+
+    .about p {
+        font-size: 0.9rem;
+    }
 }

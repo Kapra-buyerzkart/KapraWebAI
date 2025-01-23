@@ -1,46 +1,52 @@
 .career-card {
-    background: white;
-    border: 1px solid #ddd;
+    background: #ffffff;
+    border: 1px solid #ccc;
     border-radius: 8px;
     padding: 1.5rem;
-    width: 300px;
+    width: 315px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
 }
 
 .career-card:hover {
     transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .career-title {
     margin-bottom: 1rem;
-    color: #4caf50;
+    color: #008080; /* Teal */
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .career-detail {
     margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #666;
 }
 
 .career-apply-button {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
-    background-color: #4caf50;
+    background-color: #ff7f50; /* Coral */
     color: white;
-    text-decoration: none;
     font-weight: bold;
     border: none;
-    /* Removed border */
     border-radius: 5px;
-    transition: background-color 0.3s;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .career-apply-button:hover {
-    background-color: #388e3c;
+    background-color: #e5673d; /* Darker Coral */
 }
 
-
+/* Responsive Design */
 @media (max-width: 768px) {
     .career-card {
         width: 90%;
