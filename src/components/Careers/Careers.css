@@ -3,6 +3,11 @@
     padding: 3rem 2rem;
     background: #e8f8f5; /* Light teal */
     color: #333;
+    position: relative;
+    background: url('../../assets/images/careers-banner.png') no-repeat center center/cover;
+    /* Set the background image */
+    background-size: cover;
+    min-height: 95vh;
 }
 
 .career-heading {

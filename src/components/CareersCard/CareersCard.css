@@ -33,7 +33,7 @@
     display: inline-block;
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
-    background-color: #ff7f50; /* Coral */
+    background-color: #023047; /* Coral */
     color: white;
     font-weight: bold;
     border: none;
@@ -43,7 +43,7 @@
 }
 
 .career-apply-button:hover {
-    background-color: #e5673d; /* Darker Coral */
+    background-color: #219ebc; /* Darker Coral */
 }
 
 /* Responsive Design */

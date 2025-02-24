@@ -6,7 +6,7 @@ const Loader = () => {
 
     return (
         <div className="loader-container">
-            <ClipLoader color="#007bff" size={50} />
+            <ClipLoader color="#fb8500" size={50} />
         </div>)
 }
 

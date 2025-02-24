@@ -1,12 +1,13 @@
 /* General Styles */
 .header {
-    background-color: #7091e6;
+    /* background-color: #fb8500; */
     color: white;
     padding: 1rem 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
+    background: linear-gradient(90deg, #FB8500 0%, #FF5733 100%);
 }
 
 .header-container {
@@ -52,7 +53,7 @@
 }
 
 .nav-links a:hover {
-    color: #3d52a0;
+    color: #023047;
 }
 
 /* Hamburger Menu Toggle */
@@ -82,7 +83,7 @@
         position: absolute;
         top: 100%;
         left: 0;
-        background-color: #7091e6;
+        background-color: #FF5733;
         width: 100%;
         padding: 1rem 2rem;
         transform: translateY(-200%);

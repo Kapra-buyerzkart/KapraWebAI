@@ -1,8 +1,14 @@
 .services {
+    position: relative;
     text-align: center;
-    padding: 3rem 2rem;
-    background: linear-gradient(135deg, #7091e6, #adbbda);
+    padding: 5rem 2rem;
+    /* Increased padding for taller section */
+    background: url('../../assets/images/services-banner.png') no-repeat center center/cover;
+    /* Set the background image */
+    background-size: cover;
     color: #fff;
+    min-height: 95vh;
+    /* Increased minimum height */
 }
 
 .services h2 {
@@ -44,12 +50,12 @@
 
 .card i {
     font-size: 3rem;
-    color: #4facfe;
+    color: #fb8500;
     transition: color 0.3s;
 }
 
 .card:hover i {
-    color: #7091e6;
+    color: #023047;
 }
 
 .card h3 {

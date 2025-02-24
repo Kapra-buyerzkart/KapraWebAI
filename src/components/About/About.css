@@ -1,14 +1,22 @@
 .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Aligns children vertically */
     padding: 4rem 2rem;
     background-color: #f7f9fc;
     text-align: center;
     color: #333;
+    position: relative;
+    background: url('../../assets/images/about-banner.png') no-repeat center center/cover;
+    min-height: 95vh;
 }
 
 .about h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: #3d52a0;
+    color: #023047;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
@@ -22,7 +30,7 @@
     margin: 0 auto;
     text-align: center;
     padding: 1rem;
-    border-left: 4px solid #3d52a0;
+    border-left: 4px solid #023047;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
