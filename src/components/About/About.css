@@ -9,7 +9,7 @@
     text-align: center;
     color: #333;
     position: relative;
-    background: url('../../assets/images/about-banner.png') no-repeat center center/cover;
+    background: url('../../assets/images/about-banner.webp') no-repeat center center/cover;
     min-height: 95vh;
 }
 
