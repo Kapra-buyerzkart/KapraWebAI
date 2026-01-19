@@ -22,7 +22,7 @@ const Footer = () => {
                     </a>
                 </div> */}
             </div>
-            <p>© 2024 KAPRA WEB AI MAKERS PVT LTD. All rights reserved.</p>
+            <p>© 2026 KAPRA WEB AI MAKERS PVT LTD. All rights reserved.</p>
         </footer>
     );
 };
